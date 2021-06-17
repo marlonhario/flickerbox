@@ -1,0 +1,362 @@
+.Content__container {
+	margin-top: 50px;
+	padding: 200px 100px 0 100px;
+
+	.technology-leader {
+    line-height: 1.1;
+		color: #00163d;
+
+		font-size: 48px;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 25px
+	}
+
+	.first-row {
+		margin-top: 150px;
+
+		.first-column {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+
+			.airship {
+				width: 100%;
+
+				.segment {
+					border-radius: 8px;
+					height: 396px;
+					width: 100%;
+					margin-bottom: 28px;
+					background-image: url('../images/img_1.jpg');
+					color: white;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+					padding: 28px;
+
+					h2 {
+						margin-top: 14px;
+						font-weight: 100;
+					}
+				}
+			}
+
+			.better-up {
+				display: flex;
+    		justify-content: flex-end;
+
+				.segment {
+					border-radius: 8px; 
+					height: 396px; 
+					width: 503px;
+					background-image: url('../images/img_2.jpg');
+					color: black;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+					padding: 28px;
+
+					h2 {
+						margin-top: 14px;
+						font-weight: 100;
+					}
+				}
+			}
+		}
+
+		.second-column {
+			display: flex !important;
+			align-items: flex-end;
+
+			.rsa {
+				width: 100%;
+
+				.segment {
+					border-radius: 8px; 
+					height: 717px;
+					background-image: url('../images/img_3.jpg');
+					color: white;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+					padding: 28px;
+
+					h2 {
+						margin-top: 14px;
+						font-weight: 100;
+					}
+				}
+			}
+		}
+
+		.third-column {
+			display: flex !important;
+			align-items: flex-end;
+
+			.okta {
+				width: 100%;
+
+				.segment {
+					border-radius: 8px; 
+					height: 610px;
+					background-image: url('../images/img_4.jpg');
+					color: white;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+					padding: 28px;
+
+					h2 {
+						margin-top: 14px;
+						font-weight: 100;
+					}
+				}
+			}
+		}
+	}
+
+	.second-row {
+		.first-column {
+			display: flex !important;
+			justify-content: flex-end;
+
+			.carta {
+				.segment {
+					border-radius: 8px; 
+					height: 396px;
+					width: 717px;
+					background-image: url('../images/img_5.jpg');
+					color: black;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+					padding: 28px;
+
+					h2 {
+						margin-top: 14px;
+						font-weight: 100;
+					}
+				}
+			}
+		}
+
+	.second-column {
+			.rezilion {
+				.segment {
+					border-radius: 8px; 
+					height: 396px;
+					background-image: url('../images/img_6.png');
+					color: white;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+					padding: 28px;
+
+					h2 {
+						margin-top: 14px;
+						font-weight: 100;
+					}
+				}
+			}
+		}
+	}
+
+	.third-row {
+		.first-column {
+			display: flex !important;
+			justify-content: flex-end;
+
+			.stitchFix {
+				.segment {
+					border-radius: 8px; 
+					height: 396px;
+					width: 717px;
+					background-image: url('../images/img_7.jpg');
+					color: black;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+					padding: 28px;
+
+					h2 {
+						margin-top: 14px;
+						font-weight: 100;
+					}
+				}
+			}
+		}
+
+		.second-column {
+			.agari {
+				.segment {
+					border-radius: 8px; 
+					height: 396px;
+					background-image: url('../images/img_8.jpg');
+					color: white;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+					padding: 28px;
+
+					h2 {
+						margin-top: 14px;
+						font-weight: 100;
+					}
+				}
+			}
+		}
+	}
+
+
+	.fourth-row {
+		.first-column {
+			display: flex !important;
+			justify-content: flex-end;
+
+			.nylas {
+				.segment {
+					border-radius: 8px; 
+					height: 396px;
+					width: 717px;
+					background-image: url('../images/img_11.jpg');
+					color: white;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+					padding: 28px;
+
+					h2 {
+						margin-top: 14px;
+						font-weight: 100;
+					}
+				}
+			}
+		}
+
+		.second-column {
+			.lakeside {
+				.segment {
+					border-radius: 8px; 
+					height: 396px;
+					background-image: url('../images/img_12.jpg');
+					color: white;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+					padding: 28px;
+
+					h2 {
+						margin-top: 14px;
+						font-weight: 100;
+					}
+				}
+			}
+		}
+	}
+
+	.fifth-row {
+		.first-column {
+			display: flex !important;
+			justify-content: flex-end;
+
+			.oktaBusiness {
+				.segment {
+					border-radius: 8px; 
+					height: 396px;
+					width: 503px;
+					background-image: url('../images/img_9.jpg');
+					color: white;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+					padding: 28px;
+
+					h2 {
+						margin-top: 14px;
+						font-weight: 100;
+					}
+				}
+			}
+		}
+
+		.second-column {
+			.stitchFixMen {
+				.segment {
+					border-radius: 8px; 
+					height: 396px;
+					background-image: url('../images/img_10.jpg');
+					color: black;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+					padding: 28px;
+
+					h2 {
+						margin-top: 14px;
+						font-weight: 100;
+					}
+				}
+			}
+		}
+	}
+
+	.sixth-row {
+		.second-column {
+			display: flex !important;
+			justify-content: flex-end;
+
+			.astro {
+				width: 100%;
+
+				.segment {
+					border-radius: 8px; 
+					height: 396px;
+					background-image: url('../images/img_13.jpg');
+					color: white;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+					padding: 28px;
+
+					h2 {
+						margin-top: 14px;
+						font-weight: 100;
+					}
+				}
+			}
+		}
+	}
+
+	.companies {
+		.first-row {
+			margin-top: 150px;
+
+			h2 {
+				font-size: 48px;
+				width: 100%;
+				text-align: center;
+				margin-bottom: 25px;
+			}
+		}
+
+		.column {
+			justify-content: center;
+    	gap: 43px;
+		}
+
+		.second-row {
+			div.column {
+				height: 190px;
+
+				&.display {
+					img {
+						padding: 20px;
+						height: 180px;
+						background: #e6eaf0;
+					}
+				}
+			}
+		}	
+	}
+}

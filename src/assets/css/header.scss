@@ -1,0 +1,42 @@
+.Header__container {
+	height: 70px;
+	padding: 0 400px 0 400px;
+	align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top .7s ease-in-out, background .7s ease-in-out;
+	z-index: 9999;
+
+	&.scroll-down {
+		top: -70px;
+		background: #f5f8fc;
+		color: #f5f8fc;
+	}
+
+	&.scroll-up {
+		top: 0;
+		background: #00163d;
+		color: #f5f8fc;
+	}
+
+	&.transparent {
+		background: transparent;
+		color: #00163d;
+	}
+
+	.Flicker__container {
+		display: flex;
+		align-items: center;
+		height: 100%;
+		font-size: 18px;
+	}
+
+	.Flicker__box {
+		border: 10px solid red;
+    width: 40px;
+    height: 40px;
+		margin-right: 15px;
+	}
+}
