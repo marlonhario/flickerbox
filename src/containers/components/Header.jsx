@@ -1,4 +1,5 @@
 import React from 'react';
+import { Icon } from 'semantic-ui-react';
 
 const Header = ({
 	scrollDown,
@@ -15,7 +16,7 @@ const Header = ({
 				<div className="flicker">
 					<div className="Flicker__box">
 					</div>
-					Flickerbox
+					Flickerbox 
 				</div>
 				<div className={`menu ${display ? 'show' : 'hide'}`}>
 					<div className={`nav-items ${display ? '' : 'hide'}`}>
@@ -25,7 +26,7 @@ const Header = ({
 							))}
 						</ul>
 					</div>
-					<i onClick={() => setDisplay(!display)} className="fas fa-plus"></i>
+					<Icon onClick={() => setDisplay(!display)} name='plus' />
 				</div>
 			</div>
 		</div>

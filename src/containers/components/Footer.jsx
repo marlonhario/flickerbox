@@ -1,5 +1,6 @@
 import React from 'react';
-import { Grid } from 'semantic-ui-react'
+import { Grid } from 'semantic-ui-react';
+import { Icon } from 'semantic-ui-react';
 
 const Footer = () => {
 
@@ -17,7 +18,7 @@ const Footer = () => {
 							</h1>
 						</Grid.Column>
 						<Grid.Column width={4}>
-							<i className='fas fa-angle-double-right'></i>
+							<Icon name='angle double right' />
 						</Grid.Column>
 					</Grid.Row>
 				</a>
@@ -30,3 +31,4 @@ const Footer = () => {
 }
 
 export default Footer;
+
