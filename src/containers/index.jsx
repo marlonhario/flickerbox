@@ -1,11 +1,10 @@
 import React from 'react';
 import { Header, Content, Footer } from "./components";
 
-const Flickerbox = ({mainIndex, content}) => {
-
+const Flickerbox = ({header, content}) => {
 	return (
 		<div className={`App__container`}>
-			<Header {...mainIndex} />
+			<Header {...header} />
 			<Content {...content} />
 			<Footer />
 		</div>

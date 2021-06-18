@@ -17,7 +17,7 @@ const Footer = () => {
 							</h1>
 						</Grid.Column>
 						<Grid.Column width={4}>
-							<i class='fas fa-angle-double-right'></i>
+							<i className='fas fa-angle-double-right'></i>
 						</Grid.Column>
 					</Grid.Row>
 				</a>

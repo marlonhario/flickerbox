@@ -24,6 +24,21 @@
 	&.transparent {
 		background: transparent;
 		color: #00163d;
+
+		.nav-items {
+			background-color: #00163d !important; 
+			color: #f5f8fc !important; 
+
+			a {
+				color: #f5f8fc !important; 
+			}
+		}
+
+		.show {
+			i {
+				color: #f5f8fc !important;
+			}
+		}
 	}
 
 	.Flicker__container {
@@ -31,6 +46,89 @@
 		align-items: center;
 		height: 100%;
 		font-size: 18px;
+		justify-content: space-between;
+		position: relative;
+
+		.flicker {
+			display: flex;
+    	align-items: center;
+		}
+
+		.menu {
+
+			i {
+				font-size: 23px;
+				position: absolute;
+				top: 23px;
+				right: 0;
+				z-index: 2;
+  			transition: .3s ease-in-out;
+				cursor: pointer;
+			}
+
+			.nav-items {
+				background-color: #f5f8fc;
+				color: #00163d;
+				box-shadow: rgba(0,22,61,.2) 0 8px 24px,rgba(0,22,61,.1) 0 0 0 1px;
+				padding: 24px;
+				width: 400px;
+				transition: right 0s,opacity .4s,transform .6s;
+				border-radius: 8px;
+				max-width: calc(100vw - 32px);
+				position: absolute;
+				right: -24px;
+				top: 2px;
+				transform: perspective(400px);
+				transform-origin: right top;
+				z-index: 1;
+			
+				&.hide {
+					opacity: 0;
+					right: 100vw;
+					transform: perspective(400px) rotateX(-10deg);
+					transform-origin: right top;
+					transition-delay: .4s,0s,0s;
+				}
+
+				ul {
+					padding: 0;
+					margin: 0;
+
+					a {	
+						color: #00163d;
+						text-decoration: none;
+					}
+
+					li {
+						list-style: none;
+						margin: 30px 0 20px 0;
+						padding: 0;
+						font-size: 24px;
+						cursor: pointer;
+
+						&:hover {
+							color: #ff5d33;
+						}
+					}
+
+					a:first-child > li { 
+						margin-top: 0;
+					}
+
+					a:last-child > li { 
+						margin-bottom: 0;
+					}
+				}
+			}
+
+			&.show {
+				i {
+					color: #00163d;
+					-ms-transform: rotate(-45deg);
+  				transform: rotate(-45deg);
+				}
+			}
+		}
 	}
 
 	.Flicker__box {

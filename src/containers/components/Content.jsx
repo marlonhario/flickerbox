@@ -15,12 +15,12 @@ const Content = ({
 			and tomorrow
 		</h1>
 		<Grid columns='equal'>
-			{technologyPartners.map((value) => (
-					<Grid.Row {...value.attributes}>
-						{value.columns.map((column) => (
-							<Grid.Column {...column.attributes}>
-								{column.hrefTag.length ? column.hrefTag.map((href) =>(
-										<a {...href.attributes}> 
+			{technologyPartners.map((value, index) => (
+					<Grid.Row key={index} {...value.attributes}>
+						{value.columns.map((column, index) => (
+							<Grid.Column key={index} {...column.attributes}>
+								{column.hrefTag.length ? column.hrefTag.map((href, index) =>(
+										<a key={index} {...href.attributes}> 
 											<Segment>
 												<h1>{href.title}</h1>
 												<h2>{href.subTitle}</h2>
@@ -43,9 +43,9 @@ const Content = ({
 			</Grid.Row>
 			{[...Array(7).keys()].map(function(i) {
 				return (
-					<Grid.Row className="second-row" columns={9}>
-						{companyImages.map((value) => (
-							<Grid.Column className={`display`}>
+					<Grid.Row key={i} className="second-row" columns={9}>
+						{companyImages.map((value, index) => (
+							<Grid.Column key={index} className={`display`}>
 								<Image src={value} />
 							</Grid.Column>
 						))}

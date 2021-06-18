@@ -10,6 +10,7 @@ import company_5 from './../../assets/images/company_5.png'
 const Actions = () => {
 	const [offsetY, setOffsetY] = useState(window.scrollY);
 	const [scrollDown, setScrollDown] = useState(false);
+	const [display, setDisplay] = useState(false);
 	
 	const companyImages = [
 		company_1,
@@ -264,15 +265,25 @@ const Actions = () => {
 	]
 
 
+	const menuLink = [
+		{href: 'https://www.flickerbox.com/our-work/', title: 'Our work'},
+		{href: 'https://www.flickerbox.com/what-we-do/', title: 'What we do'},
+		{href: 'https://www.flickerbox.com/who-we-are/', title: 'Who we are'},
+		{href: 'https://www.flickerbox.com/blog/', title: 'Our blog'},
+		{href: 'https://www.flickerbox.com/careers/', title: 'Careers'},
+		{href: 'https://www.flickerbox.com/contact-us/', title: 'Contact us'},
+	]
+
+
 	const handleNavigation = useCallback(
 		e => {
+			setDisplay(false);
+
 			const window = e.currentTarget;
 			if (offsetY > window.scrollY) {
-				console.log("scrolling up");
 				setScrollDown(false);
 			} else if (offsetY < window.scrollY) {
 				setScrollDown(true);
-				console.log("scrolling down");
 			}
 			setOffsetY(window.scrollY);
 		}, [offsetY]
@@ -289,15 +300,17 @@ const Actions = () => {
 
 
 	const data = {
-		mainIndex: {
+		header: {
 			offsetY,
-			scrollDown
+			scrollDown,
+			display, 
+			setDisplay,
+			menuLink
 		},
 		content: {
 			technologyPartners, 
 			companyImages
-		},
-
+		}
 	}
 
 	return <Flickerbox {...data} />;
