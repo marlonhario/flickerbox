@@ -6,7 +6,7 @@ const Footer = () => {
 
 	return (
 			<Grid className="Footer__container">
-				<Link to={{ pathname: "https://www.flickerbox.com/contact-us/" }} target="_blank">
+				<Link to={{ pathname: "https://www.flickerbox.com/contact-us/" }}>
 					<Grid.Row>
 						<Grid.Column width={12}>
 							<h1>

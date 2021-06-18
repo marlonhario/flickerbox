@@ -24,8 +24,7 @@ const Content = ({
 										<Link 
 											className={href.className}
 											key={index} 
-											to={{ pathname: href.href }}  
-											target="_blank">
+											to={{ pathname: href.href }}>
 
 											<Segment>
 												<h1>{href.title}</h1>
