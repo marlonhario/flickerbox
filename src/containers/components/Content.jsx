@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Segment, Image } from 'semantic-ui-react'
+import { Link } from "react-router-dom";
 
 const Content = ({
 	technologyPartners, 
@@ -20,12 +21,17 @@ const Content = ({
 						{value.columns.map((column, index) => (
 							<Grid.Column key={index} {...column.attributes}>
 								{column.hrefTag.length ? column.hrefTag.map((href, index) =>(
-										<a key={index} {...href.attributes}> 
+										<Link 
+											className={href.className}
+											key={index} 
+											to={{ pathname: href.href }}  
+											target="_blank">
+
 											<Segment>
 												<h1>{href.title}</h1>
 												<h2>{href.subTitle}</h2>
 											</Segment>
-										</a>
+										</Link>
 									)): ''}
 							</Grid.Column>
 						))}

@@ -32,18 +32,14 @@ const Actions = () => {
 					},
 					hrefTag: [
 						{
-							attributes: {
-								href: "https://www.flickerbox.com/our-work/airship/",
-								className: "airship"
-							},
+							href: "https://www.flickerbox.com/our-work/airship/",
+							className: "airship",
 							title: 'Airship',
 							subTitle: 'Brand Redesign',
 						},
 						{
-							attributes: {
-								href: "https://www.flickerbox.com/our-work/betterup/",
-								className: "better-up"
-							},
+							href: "https://www.flickerbox.com/our-work/betterup/",
+							className: "better-up",
 							title: 'BetterUp',
 							subTitle: 'Website Redesign',
 						}
@@ -56,10 +52,8 @@ const Actions = () => {
 					},
 					hrefTag: [
 						{
-							attributes: {
-								href: "https://www.flickerbox.com/our-work/rsa/",
-								className: "rsa"
-							},
+							href: "https://www.flickerbox.com/our-work/rsa/",
+							className: "rsa",
 							title: 'RSA',
 							subTitle: 'RSA Link UI & UX',
 						}
@@ -71,10 +65,8 @@ const Actions = () => {
 					},
 					hrefTag: [
 						{
-							attributes: {
-								href: "https://www.flickerbox.com/our-work/okta/",
-								className: "okta"
-							},
+							href: "https://www.flickerbox.com/our-work/okta/",
+							className: "okta",
 							title: 'Okta',
 							subTitle: 'Partnership & D8 Replatform',
 						}
@@ -94,10 +86,8 @@ const Actions = () => {
 					},
 					hrefTag: [
 						{
-							attributes: {
-								href: "https://www.flickerbox.com/our-work/carta/",
-								className: "carta"
-							},
+							href: "https://www.flickerbox.com/our-work/carta/",
+							className: "carta",
 							title: 'Carta',
 							subTitle: 'Website Development & Maintenance',
 						}
@@ -109,10 +99,8 @@ const Actions = () => {
 					},
 					hrefTag: [
 						{
-							attributes: {
-								href: "https://www.flickerbox.com/our-work/rezilion/",
-								className: "rezilion"
-							},
+							href: "https://www.flickerbox.com/our-work/rezilion/",
+							className: "rezilion",
 							title: 'Rezilion',
 							subTitle: 'Website Launch',
 						}
@@ -132,10 +120,8 @@ const Actions = () => {
 					},
 					hrefTag: [
 						{
-							attributes: {
-								href: "https://www.flickerbox.com/our-work/stitch-fix-women/",
-								className: "stitchFix"
-							},
+							href: "https://www.flickerbox.com/our-work/stitch-fix-women/",
+							className: "stitchFix",
 							title: 'Stich Fix',
 							subTitle: "Women's Blog Redesign",
 						}
@@ -147,10 +133,8 @@ const Actions = () => {
 					},
 					hrefTag: [
 						{
-							attributes: {
-								href: "https://www.flickerbox.com/our-work/agari/",
-								className: "agari"
-							},
+							href: "https://www.flickerbox.com/our-work/agari/",
+							className: "agari",
 							title: 'Agari',
 							subTitle: 'Website Redesign',
 						}
@@ -170,10 +154,8 @@ const Actions = () => {
 					},
 					hrefTag: [
 						{
-							attributes: {
-								href: "https://www.flickerbox.com/our-work/nylas/",
-								className: "nylas"
-							},
+							href: "https://www.flickerbox.com/our-work/nylas/",
+							className: "nylas",
 							title: 'Nylas',
 							subTitle: "Website Redesign",
 						}
@@ -185,10 +167,8 @@ const Actions = () => {
 					},
 					hrefTag: [
 						{
-							attributes: {
-								href: "https://www.flickerbox.com/our-work/lakeside-software/",
-								className: "lakeside"
-							},
+							href: "https://www.flickerbox.com/our-work/lakeside-software/",
+							className: "lakeside",
 							title: 'Lakeside Software',
 							subTitle: 'Website Redesign',
 						}
@@ -208,10 +188,8 @@ const Actions = () => {
 					},
 					hrefTag: [
 						{
-							attributes: {
-								href: "https://www.flickerbox.com/our-work/okta-businesses-at-work/",
-								className: "oktaBusiness"
-							},
+							href: "https://www.flickerbox.com/our-work/okta-businesses-at-work/",
+							className: "oktaBusiness",
 							title: 'Okta',
 							subTitle: "Business at Work",
 						}
@@ -223,10 +201,8 @@ const Actions = () => {
 					},
 					hrefTag: [
 						{
-							attributes: {
-								href: "https://www.flickerbox.com/our-work/stitch-fix-men/",
-								className: "stitchFixMen"
-							},
+							href: "https://www.flickerbox.com/our-work/stitch-fix-men/",
+							className: "stitchFixMen",
 							title: 'Stitch Fix',
 							subTitle: "Men's Blog Redesign",
 						}
@@ -251,10 +227,8 @@ const Actions = () => {
 					},
 					hrefTag: [
 						{
-							attributes: {
-								href: "https://www.flickerbox.com/our-work/astro/",
-								className: "astro"
-							},
+							href: "https://www.flickerbox.com/our-work/astro/",
+							className: "astro",
 							title: 'Astro',
 							subTitle: "Website Launch",
 						}

@@ -1,12 +1,12 @@
 import React from 'react';
-import { Grid } from 'semantic-ui-react';
-import { Icon } from 'semantic-ui-react';
+import { Grid, Icon } from 'semantic-ui-react';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
 
 	return (
 			<Grid className="Footer__container">
-				<a href="https://www.flickerbox.com/contact-us/">
+				<Link to={{ pathname: "https://www.flickerbox.com/contact-us/" }} target="_blank">
 					<Grid.Row>
 						<Grid.Column width={12}>
 							<h1>
@@ -21,7 +21,7 @@ const Footer = () => {
 							<Icon name='angle double right' />
 						</Grid.Column>
 					</Grid.Row>
-				</a>
+				</Link>
 				<Grid.Row>
 						<h2>hello@flickerbox.com</h2>
 						<h2>Careers</h2>

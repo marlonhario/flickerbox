@@ -1,5 +1,6 @@
 import React from 'react';
 import { Icon } from 'semantic-ui-react';
+import { Link } from "react-router-dom";
 
 const Header = ({
 	scrollDown,
@@ -22,7 +23,7 @@ const Header = ({
 					<div className={`nav-items ${display ? '' : 'hide'}`}>
 						<ul>
 							{menuLink.map(({href, title}, index) => (
-								<a key={index} href={href}><li>{title}</li></a>
+								<Link key={index} to={{ pathname: href }} target="_blank"><li>{title}</li></Link>
 							))}
 						</ul>
 					</div>
