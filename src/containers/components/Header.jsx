@@ -23,7 +23,7 @@ const Header = ({
 					<div className={`nav-items ${display ? '' : 'hide'}`}>
 						<ul>
 							{menuLink.map(({href, title}, index) => (
-								<Link key={index} to={{ pathname: href }}><li>{title}</li></Link>
+								<Link key={index} to={{ pathname: href }} target="_blank"><li>{title}</li></Link>
 							))}
 						</ul>
 					</div>
